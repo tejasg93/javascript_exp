@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add two number</title>
+</head>
+<body>
+    <input type="text" class="input1" value=""> 
+    <p> + </p>
+    <input type="text" class="input2" value=""> 
+    <button class="addBtn">Add</button>
+    <p> = </p>
+
+    <p class="screen"> </p>
+
+
+    <script>
+      
+        let input1=document.querySelector(".input1");
+        let input2=document.querySelector(".input2");
+        let addBtn= document.querySelector(".addBtn");
+       // let screen= document.querySelector(".screen");
+       let screen="input1 + input2";
+       let answer= eval(screen);
+        screen.value = "";
+        
+
+        addBtn.addEventListener('click', function (e) {
+            
+          
+
+          console.log(screen);
+
+
+
+
+            //   console.log("working"+ input1 + input2);
+})
+    
+ 
+
+        
+    </script>
+    
+</body>
+</html>
